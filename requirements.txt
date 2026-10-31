@@ -1,0 +1,6 @@
+geopandas
+pyarrow
+s3fs
+matplotlib
+mapclassify
+folium
