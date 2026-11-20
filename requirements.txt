@@ -4,3 +4,5 @@ s3fs
 matplotlib
 mapclassify
 folium
+
+scipy
