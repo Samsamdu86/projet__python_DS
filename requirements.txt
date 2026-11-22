@@ -1,8 +1,11 @@
+pandas
 geopandas
 pyarrow
 s3fs
+scipy
+scikit-learn
+statsmodels
+openpyxl
 matplotlib
 mapclassify
 folium
-
-scipy
