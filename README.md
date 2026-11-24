@@ -46,7 +46,7 @@ Périmètre : France métropolitaine, hors Alsace-Moselle (non couverte par les 
 | [`01_nettoyage_bpe`](notebooks/01_nettoyage_bpe.ipynb) | Sélection des commerces alimentaires (hypermarchés, supermarchés, proximité, spécialisés), retrait des commerces sans coordonnées, restriction à la métropole hors Alsace-Moselle | `data/processed/bpe_alim_2025.parquet` (135 587 commerces) |
 | [`02_nettoyage_dvf`](notebooks/02_nettoyage_dvf.ipynb) | Ventes d'un seul logement, retrait des coordonnées aberrantes et des mutations hors vente, filtres de prix (plancher, plafond, écart à la médiane communale), ajout de la densité | `data/processed/dvf_ventes_2025.parquet` (810 517 ventes) |
 | [`03_croisement`](notebooks/03_croisement.ipynb) | Distance au commerce le plus proche, nombre de commerces accessibles et indice d'accessibilité par catégorie, avec un rayon adapté au type de territoire | `data/processed/dvf_enrichi_2025.parquet`, tableaux dans `outputs/tables/` |
-| [`04_regressions`](notebooks/04_regressions.ipynb) | Régressions du log du prix au m² sur l'accès aux commerces, avec contrôles (surface, type de logement, département, densité) | [`outputs/tables/comparaison_modeles.csv` et `coefficients_M1.csv` à `coefficients_M6.csv`] |
+| [`04_regressions`](notebooks/04_regressions.ipynb) | Régressions du log du prix au m² sur l'accès aux commerces, avec contrôles (surface, type de logement, département, densité) | `outputs/tables/comparaison_modeles.csv` et `coefficients_M1.csv` à `coefficients_M6.csv` |
 
 ### Fonctions (`src/`)
 
