@@ -79,7 +79,7 @@ Exécuter ensuite les notebooks **dans l'ordre**, depuis le dossier `notebooks/`
 Chaque notebook lit les fichiers produits par le précédent dans `data/processed/`. Les sources ne
 sont téléchargées qu'une fois, dans `data/raw/`.
 
-La synthèse ne lit que les tableaux de `outputs/tables/`, présents dans le dépôt : elle s'exécute en
+La synthèse ne lit que les tableaux de `outputs/tables/` et les figures de `outputs/figures/`, présents dans le dépôt : elle s'exécute en
 quelques secondes, sans relancer le traitement.
 
 ## Principaux choix méthodologiques
